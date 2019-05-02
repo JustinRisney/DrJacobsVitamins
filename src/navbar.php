@@ -18,7 +18,7 @@
 		max-height: 200px;
 	}
 	</style>
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #2060C7" id="OUR-navbar">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: rgba(84, 150, 84, .5)" id="OUR-navbar">
 	<!--<a class="navbar-brand" href="/">
 		<img src="/images/FCSTAC-Logo.png" height="20px" width="25px" style="filter: grayscale(.0000000000000000000000000000000000000000000000000000000000000000000000000000000001%);"/>
 	</a>-->
