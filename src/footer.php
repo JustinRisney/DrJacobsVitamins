@@ -15,10 +15,10 @@
 	<div class="" id="nav-content">   
 		<ul class="navbar-nav">
 			<li class="nav-item ">
-				<a class="nav-link"  href="/">Legal</a>
+				<a class="nav-link"  href="/legal">Legal</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/about">Credit</a>
+				<a class="nav-link" href="/credits">Credit</a>
 			</li>
 		</ul>
 	</div>
