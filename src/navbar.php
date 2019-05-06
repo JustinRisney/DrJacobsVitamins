@@ -17,6 +17,7 @@
 	nav {
 		max-height: 200px;
 	}
+
 	</style>
 <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: rgba(84, 150, 84, .5)" id="OUR-navbar">
 	<!--<a class="navbar-brand" href="/">
@@ -36,9 +37,6 @@
 			<li class="nav-item">
 				<a class="nav-link" href="/about">About</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/photos">Photos</a>
-			</li>
 			<li class="nav-item ">
 				<a class="nav-link" href="/contact">Contact</a>
 			</li>
@@ -51,7 +49,7 @@
 		</ul>
 
 	</div>
-	<a class="navbar-brand" href="/">
+	<a class="navbar-brand" href="/cart">
 		<img src="/images/shoppingcart.png" height="20px" width="25px" style="filter: grayscale(.0000000000000000000000000000000000000000000000000000000000000000000000000000000001%);"/>
 	</a>
 </nav>

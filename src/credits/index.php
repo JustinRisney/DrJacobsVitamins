@@ -3,11 +3,11 @@
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-	<title></title>
+	<title>Credits</title>
 </head>
 <body>
 	<?php include'../navbar.php';?>
-		<div>Icons made by 
+		<div class='text-center' style='padding-top: 100px;'>Icons made by 
 				<a href="https://www.flaticon.com/authors/stephen-hutchings" title="Stephen Hutchings">Stephen Hutchings</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com
 				</a> 
 				is licensed by 
