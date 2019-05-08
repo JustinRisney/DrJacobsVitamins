@@ -7,6 +7,21 @@
 		}
 	}
 ?>
+<script type="text/javascript">
+	function navCollapse(id) {
+		let x = document.getElementById(id);
+		x.style.transition = 'all .5s'
+		x.style.opacity = '.25';
+		x.style.height = '5%';
+	}
+	function navExpand(id) {
+		let x = document.getElementById(id);
+		x.style.opacity = '.75';
+		x.style.maxHeight = '200px';
+		x.style.height = '10%';
+	}
+
+</script>
 <style>
 	.dropdown-item{
 		font-weight: 300;
@@ -19,7 +34,7 @@
 	}
 
 	</style>
-<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: rgba(84, 150, 84, .5)" id="OUR-navbar">
+<nav onload="navCollapse('OUR-navbar');" class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: rgba(84, 150, 84, .75)" id="OUR-navbar" onmouseenter="navExpand('OUR-navbar');" onmouseleave='navCollapse("OUR-navbar");'>
 	<!--<a class="navbar-brand" href="/">
 		<img src="/images/FCSTAC-Logo.png" height="20px" width="25px" style="filter: grayscale(.0000000000000000000000000000000000000000000000000000000000000000000000000000000001%);"/>
 	</a>-->

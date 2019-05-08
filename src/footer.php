@@ -11,7 +11,7 @@
 		font-weight: 100 !important;
 	}
 </style>
-<nav class='navbar fixed-bottom navbar-expand-sm' style="background-color: rgba(84, 150, 84, .5);" id='yeet'>
+<nav class='navbar fixed-bottom navbar-expand-sm' style="background-color: rgba(84, 150, 84, .75);" id='yeet'>
 	<div class="" id="nav-content">   
 		<ul class="navbar-nav">
 			<li class="nav-item ">
